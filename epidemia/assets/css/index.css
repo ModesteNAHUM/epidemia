@@ -1,0 +1,46 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    text-justify: newspaper;
+}
+
+.sect1 {
+    background-image: url(assets/images/backg.jpg);
+    width: 100%;
+    height: 100vh;
+    object-fit: initial;
+    background-repeat: no-repeat;
+}
+
+.container {
+    border-radius: 20px;
+    background-color: rgb(82 132 182 / 15%);
+    color: white;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 6%;
+    align-items: stretch;
+    position: relative;
+    left: 25%;
+    top: 15%;
+}
+
+.container .link {
+    text-decoration: none;
+    color: white;
+}
+
+.container .link:hover {
+    text-decoration: none;
+    color: blueviolet;
+    background-color: white;
+    transition: 1.5s;
+    border-radius: 15%;
+    border: 2% solid blueviolet;
+    padding: 2%;
+}
